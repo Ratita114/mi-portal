@@ -1,10 +1,10 @@
 {
   "name": "mi-portal",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Portal web con Express y EJS desplegado en Vercel",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",

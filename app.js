@@ -8,4 +8,6 @@ app.use(express.static('public'));
 app.use('/', mainRoutes);
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`Servidor activo en http://localhost:${PORT}`));
+module.exports = app;
+
+//app.listen(PORT, () => console.log(`Servidor activo en http://localhost:${PORT}`));
